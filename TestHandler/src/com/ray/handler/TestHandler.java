@@ -52,7 +52,7 @@ public class TestHandler extends Activity {
                     TestHandler.this.myHandler.sendMessage(message); 
                     System.out.println("jin "+Thread.currentThread().getStackTrace()[2].toString()+" ");
                     try { 
-                         Thread.sleep(1000);  
+                         Thread.sleep(1000);//ÐÝÃß  
                     } catch (InterruptedException e) { 
                          Thread.currentThread().interrupt(); 
                     } 
